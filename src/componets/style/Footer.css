@@ -1,0 +1,38 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 30px;
+    background-color: #FCF7FF;
+    color: #000;
+}
+
+footer img {
+    width: 40px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.rodape h3 {
+    margin-bottom: 20px;
+}
+
+.rodape a{
+    color: #000;
+    margin: 5px 0;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    footer {
+        padding: 25px 2rem;
+    }
+}

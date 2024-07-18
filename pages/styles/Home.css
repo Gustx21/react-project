@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: auto auto 30%;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+    "NavBar NavBar NavBar"
+    "Article Article Aside"
+    "Article Article Aside"
+    "Section Section Section"
+    "Section Section Section"
+    "Footer Footer Footer";
+}
+
+#NavBar {
+    grid-area: NavBar;
+}
+
+#Section {
+    grid-area: Section;
+}
+
+#Article {
+    grid-area: Article;
+}
+
+#Aside {
+    grid-area: Aside;
+}
+
+#Footer {
+    grid-area: Footer;
+}

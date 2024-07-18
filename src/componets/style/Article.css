@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Estilo para o artigo */
+article {
+    width: 90%;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+article header {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+article header h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #333333;
+}
+
+article header p {
+    font-size: 1.05em;
+}
+
+article main h2 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #444;
+}
+
+article main p {
+    margin: 10px 0;
+}
+
+/* Estilo para imagens */
+article main img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Estilo para o texto marcado */
+article main mark {
+    background-color: #ffeb3b;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
