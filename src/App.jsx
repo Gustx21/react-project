@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/enter' element={<Enter />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/enter" element={<Enter />} />
       </Routes>
     </BrowserRouter>
   )
