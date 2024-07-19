@@ -1,0 +1,43 @@
+menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.info {
+    text-decoration: none;
+    padding-top: 10px;
+    color: #000;
+}
+
+.btn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-family: inherit;
+    background-color: #070707;
+    color: #FCF7FF;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.btn:hover {
+    border-color: #7FEFBD;
+    border-width: 1px;
+}
+
+.btn:focus,
+.btn:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn a {
+    text-decoration: none;
+}
