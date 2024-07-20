@@ -5,31 +5,40 @@
 
 .home {
     display: grid;
-    grid-template-columns: auto auto 30%;
-    grid-template-rows: repeat(6, auto);
+    grid-template-columns: 30% auto auto;
+    grid-template-rows: repeat(5, auto);
     grid-template-areas:
-    "NavBar NavBar NavBar"
-    "Article Article Aside"
-    "Article Article Aside"
-    "Section Section Section"
-    "Section Section Section"
+    "NavBar Article Article"
+    "Aside Article Article"
+    "Aside Section Section"
+    "Aside Section Section"
     "Footer Footer Footer";
+    gap: 10px;
+    margin: 10px;
 }
 
 #NavBar {
     grid-area: NavBar;
+    background-color: #F7F7F7;
+    border-radius: 10px;
 }
 
 #Section {
     grid-area: Section;
+    background-color: #F7F7F7;
+    border-radius: 10px;
 }
 
 #Article {
     grid-area: Article;
+    background-color: #F7F7F7;
+    border-radius: 10px;
 }
 
 #Aside {
     grid-area: Aside;
+    background-color: #F7F7F7;
+    border-radius: 10px;
 }
 
 #Footer {

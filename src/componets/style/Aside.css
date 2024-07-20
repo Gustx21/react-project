@@ -2,9 +2,6 @@ aside {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-width: 2px;
-    border-right-color: #ffffff;
-    border-style: solid;
 }
 
 aside div {
