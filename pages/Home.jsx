@@ -1,8 +1,8 @@
-import NavBar from "../src/componets/NavBar";
-import Section from "../src/componets/Section";
-import Article from "../src/componets/Article";
-import Aside from "../src/componets/Aside";
-import Footer from "../src/componets/Footer";
+import NavBar from "../src/structure/NavBar";
+import Section from "../src/structure/Section";
+import Article from "../src/structure/Article";
+import Aside from "../src/structure/Aside";
+import Footer from "../src/structure/Footer";
 import './styles/Home.css';
 
 function Home() {
