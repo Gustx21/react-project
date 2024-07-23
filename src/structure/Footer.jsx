@@ -1,7 +1,7 @@
 import './style/Footer.css';
 
 function Footer() {
-    const imagem = '../../vite.svg';
+    const imagem = '../../assets/react.svg';
 
     return (
         <footer>

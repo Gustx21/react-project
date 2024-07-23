@@ -1,5 +1,5 @@
 import NavBar from "../src/structure/NavBar";
-import Section from "../src/structure/Section";
+import Header from "../src/structure/Header";
 import Article from "../src/structure/Article";
 import Aside from "../src/structure/Aside";
 import Footer from "../src/structure/Footer";
@@ -11,11 +11,11 @@ function Home() {
             <div id="NavBar">
                 <NavBar />
             </div>
+            <div id="Header">
+                <Header />
+            </div>
             <div id="Article">
                 <Article />
-            </div>
-            <div id="Section">
-                <Section />
             </div>
             <div id="Aside">
                 <Aside />
