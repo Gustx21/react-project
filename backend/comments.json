@@ -1,0 +1,44 @@
+{
+    "comments": [
+        {
+            "id": 1,
+            "title": "JavaScript",
+            "body": "JavaScript é uma linguagem de programação amplamente usada para desenvolvimento web. Ela permite interatividade em páginas da web, manipulação de elementos HTML e comunicação com servidores por meio de requisições AJAX."
+        },
+        {
+            "id": 2,
+            "title": "Python",
+            "body": "Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe clara e legibilidade. É usada para desenvolvimento web, análise de dados, automação de tarefas e muito mais."
+        },
+        {
+            "id": 3,
+            "title": "Java",
+            "body": "Java é uma linguagem de programação orientada a objetos. Ela é usada para desenvolvimento de aplicativos empresariais, aplicativos Android e sistemas distribuídos."
+        },
+        {
+            "id": 4,
+            "title": "C",
+            "body": "C é uma linguagem de programação de baixo nível, amplamente usada para desenvolvimento de sistemas operacionais e aplicativos de alto desempenho."
+        },
+        {
+            "id": 5,
+            "title": "C++",
+            "body": "C++ é uma extensão da linguagem C, adicionando recursos de programação orientada a objetos. É comum em jogos e aplicativos de desktop."
+        },
+        {
+            "id": 6,
+            "title": "React",
+            "body": "React é uma biblioteca JavaScript para construção de interfaces de usuário. É amplamente usado no desenvolvimento web e mobile."
+        },
+        {
+            "id": 7,
+            "title": "Vue",
+            "body": "Vue.js é um framework progressivo para construção de interfaces de usuário. É flexível e ideal para projetos menores e médios."
+        },
+        {
+            "id": 8,
+            "title": "Angular",
+            "body": "Angular é um framework completo para desenvolvimento front-end. Baseado em TypeScript, é usado em aplicações empresariais complexas."
+        }
+    ]
+}
