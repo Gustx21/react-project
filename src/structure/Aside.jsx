@@ -1,11 +1,12 @@
 import { FaVuejs, FaYoutube } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
+import Content from "../../componets/Content";
 import './style/Aside.css';
 
 function Aside() {
     return (
         <aside>
-            <h3>Informações Correlacionadas</h3>
+            <Content title={"Informaçães correlacionadas"} />
 
             <div>
                 <FaVuejs />
