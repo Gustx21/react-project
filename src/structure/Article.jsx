@@ -14,13 +14,15 @@ function Article() {
             .catch(error => console.error(error))
     }, [articles]);
 
+    const contents = articles.map((article) => {
+        return <Content title={`Seção ${article.id}: ${article.title}`} text={article.body} />
+    })
+
     return (
         <article id='Article'>
             <Header title={"As variações de linguagem de programação"} text={"Este é um parágrafo introdutório descreve sobre o assunto de variedades nas liguagem de programação e seus benefícios. Nele, podemos falar sobre a importância do tema e o que será abordado."} />
 
-            {articles.map((article) => {
-                return <Content title={`Seção ${article.id}: ${article.title}`} text={article.body} />
-            })}
+            {contents}
 
             <Section/>
         </article>
