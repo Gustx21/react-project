@@ -9,7 +9,7 @@ function Video() {
       title='Youtube player'
       sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
       width={'100%'}
-      height={'400px'}
+      height={'450px'}
       src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}
     ></iframe>
   );
