@@ -15,7 +15,7 @@ function Article() {
     }, [articles]);
 
     return (
-        <article>
+        <article id='Article'>
             <Header title={"As variações de linguagem de programação"} text={"Este é um parágrafo introdutório descreve sobre o assunto de variedades nas liguagem de programação e seus benefícios. Nele, podemos falar sobre a importância do tema e o que será abordado."} />
 
             {articles.map((article) => {

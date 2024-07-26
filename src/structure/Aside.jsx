@@ -5,7 +5,7 @@ import './style/Aside.css';
 
 function Aside() {
     return (
-        <aside>
+        <aside id="Aside">
             <Content title={"Informaçães correlacionadas"} />
 
             <div>

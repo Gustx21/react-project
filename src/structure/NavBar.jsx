@@ -3,7 +3,7 @@ import './style/NavBar.css';
 
 function NavBar() {
     return (
-        <menu>
+        <menu id='NavBar'>
             <div>
                 <CgHome />
                 <a className='info' href="http://localhost:3000">Ínicio</a>

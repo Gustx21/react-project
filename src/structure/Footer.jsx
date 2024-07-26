@@ -4,7 +4,7 @@ function Footer() {
     const imagem = '../../assets/react.svg';
 
     return (
-        <footer>
+        <footer id='Footer'>
             <div>
                 <img src={imagem} alt="Logo" />
                 <h3>React Project</h3>
