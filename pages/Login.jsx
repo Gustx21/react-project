@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FaLock, FaUser } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import './styles/Login.css';
@@ -8,11 +8,13 @@ function Login() {
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
 
+    const [checked, setCheckBox] = useState(false);
+
     const handleSubmit = (event) => {
         event.preventDefault();
-
-        const newUser = { nome, email, senha };
-
+        
+        const newUser = { nome, email, senha, checked };
+        
         console.log(newUser)
 
         // addUser(newUser);
@@ -22,7 +24,7 @@ function Login() {
     };
 
     return (
-        <div className="body">         
+        <div className="body">
             <form className='login' onSubmit={handleSubmit}>
                 <header >
                     <h3 className="titulo">Sign Up</h3>
@@ -44,16 +46,14 @@ function Login() {
                     </div>
                     <div>
                         <input type="password" name="senha" id="senha" placeholder="Senha" value={senha} onChange={(senha) => setSenha(senha.target.value)} />
-                        <FaLock/>
+                        <FaLock />
                     </div>
 
-                    <div>
-                        <label>
-                            <input type="checkbox" />
-                            Lembre de mim
-                        </label>
-                    </div>
-                    
+                    <label>
+                        <input type="checkbox" checked={checked} onChange={(marked) => setCheckBox(marked.target.checked)} />
+                        Lembre de mim
+                    </label>
+
                     <button type="submit">Cadastrar</button>
                 </main>
             </form>
