@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { FaHtml5, FaNpm, FaReact, FaNodeJs } from "react-icons/fa";
 import Card from "../../componets/Card";
 import Video from "../../componets/Video";

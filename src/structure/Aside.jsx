@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaAngular, FaAws } from "react-icons/fa";
 import { DiGithub, DiRuby } from "react-icons/di";
 import Content from "../../componets/Content";

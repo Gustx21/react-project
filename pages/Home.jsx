@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from "../src/structure/NavBar";
 import Header from "../src/structure/Header";
 import Article from "../src/structure/Article";

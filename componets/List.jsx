@@ -1,3 +1,5 @@
+import React from 'react';
+
 function List({ id, body }) {
     return (
         <li key={id}>

@@ -1,3 +1,4 @@
+import React from 'react';
 import { CgHome } from 'react-icons/cg';
 import './style/NavBar.css';
 

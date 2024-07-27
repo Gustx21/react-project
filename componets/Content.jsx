@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Content({ title, text }) {
     return (
         <main>
