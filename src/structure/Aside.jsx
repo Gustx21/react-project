@@ -1,27 +1,21 @@
-import { FaVuejs, FaYoutube } from "react-icons/fa";
-import { DiJavascript } from "react-icons/di";
+import { FaAngular, FaAws } from "react-icons/fa";
+import { DiGithub, DiRuby } from "react-icons/di";
 import Content from "../../componets/Content";
+import Text from "../../componets/Text"
 import './style/Aside.css';
 
 function Aside() {
     return (
         <aside id="Aside">
-            <Content title={"Informaçães correlacionadas"} />
+            <Content title={"Informaçães sobre Vagas para Dev's"} />
 
-            <div>
-                <FaVuejs />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum fugiat aperiam molestiae corrupti, provident possimus soluta! Atque harum doloribus, qui, provident dolore recusandae tempora maxime mollitia blanditiis et odio autem?</p>
-            </div>
+            <Text icon={<FaAws />} text={'Empresa está com vagas abertas para Analista Programador Drupal/AWS. A posição é remota e em tempo integral.'} />
 
-            <div>
-                <FaYoutube />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit pariatur aspernatur aliquam repellat rem tenetur libero numquam saepe officia optio porro eaque vitae, mollitia facilis repudiandae ipsa. Quaerat, vitae.</p>
-            </div>
+            <Text icon={<DiRuby />} text={'Empregos e Consultoria Brasil: Essa empresa também tem uma vaga para Programador Full Stack Ruby, em regime remoto e tempo integral.'} />
+            
+            <Text icon={<DiGithub />} text={'GitHub - frontendbr/vagas: Este repositório no GitHub é específico para a postagem de vagas de front-end. Você pode encontrar oportunidades para desenvolvedores front-end, incluindo vagas relacionadas a JavaScript e Angular.'}/>
 
-            <div>
-                <DiJavascript />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nostrum porro dignissimos quis, voluptatem doloribus repudiandae corporis perferendis mollitia quae veritatis qui unde nesciunt cumque ullam? Laborum accusamus voluptatem nesciunt!</p>
-            </div>
+            <Text icon={<FaAngular />} text={'A plataforma Turing oferece mais de 100 vagas para desenvolvedores Angular.'}/>
         </aside>
     )
 }
