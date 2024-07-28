@@ -21,6 +21,8 @@ function Login() {
         // setNome('');
         // setEmail('');
         // setSenha('');
+
+        window.location.href = 'http://localhost:3000';
     };
 
     return (
