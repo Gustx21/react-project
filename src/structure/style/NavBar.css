@@ -1,6 +1,6 @@
 menu {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     font-size: 1em;
@@ -12,31 +12,4 @@ menu {
     padding-top: 10px;
     margin: 4px;
     color: #000;
-}
-
-.btn {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 10px 20px;
-    margin: 4px 0;
-    font-size: 1em;
-    font-family: inherit;
-    background-color: #070707;
-    color: #FCF7FF;
-    cursor: pointer;
-    transition: border-color 0.25s;
-}
-
-.btn:hover {
-    border-color: #7FEFBD;
-    border-width: 1px;
-}
-
-.btn:focus,
-.btn:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-}
-
-.btn a {
-    text-decoration: none;
 }
