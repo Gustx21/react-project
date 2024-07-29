@@ -1,5 +1,5 @@
 import React from 'react';
-import '../src/structure/style/Section.css';
+import './styles/Card.css';
 
 function Card({ title, text, icon }) {
     return (
