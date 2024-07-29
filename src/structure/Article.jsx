@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Content from '../../componets/Content';
 import Section from './Section';
 import Header from './Header';
-import './style/Article.css';
 
 function Article() {
     const [articles, setArticles] = useState([]);
