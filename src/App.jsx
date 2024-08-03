@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import Enter from '../pages/Enter';
+import Start from '../pages/Start';
 import Quiz from '../pages/Quiz';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/enter" element={<Enter />} />
+        <Route path="/enter/start" element={<Start />} />
         <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </BrowserRouter>
