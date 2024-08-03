@@ -11,25 +11,25 @@ function Footer() {
                 <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.</p>
             </div>
             
-            <div class="rodape">
+            <nav class="rodape">
                 <h3>Sobre Nós</h3>
                 <a href="#">Nossa história</a>
                 <a href="#">Jornada do Aluno</a>
                 <a href="#">Certificado</a>
                 <a href="#">Trabalhe Conosco</a>
                 <a href="#">Canal de Privacidade</a>
-            </div>
+            </nav>
 
-            <div class="rodape">
+            <nav class="rodape">
                 <h3>Cursos</h3>
                 <a href="#">Graduação</a>
                 <a href="#">Pós-graduação</a>
                 <a href="#">Cursos Técnicos</a>
                 <a href="#">Cursos Profissionalizantes</a>
                 <a href="#">Cursos Livres</a>
-            </div>
+            </nav>
 
-            <div class="rodape">
+            <nav class="rodape">
                 <h3>Ouvidoria</h3>
                 <a href="#">Sou Aluno</a>
                 <a href="#">Sou Candidato</a>
@@ -37,7 +37,7 @@ function Footer() {
                 <a href="#">Fale Conosco</a>
                 <a href="#">Acessibilidade</a>
                 <a href="#">Biblioteca</a>
-            </div>
+            </nav>
         </footer>
     )
 }
