@@ -5,20 +5,20 @@ import { BiDoorOpen, BiLogIn } from 'react-icons/bi';
 function NavBar() {
     return (
         <menu id='NavBar'>
-            <div>
+            <nav>
                 <CgHome />
                 <a className='info' href="http://localhost:3000">Ínicio</a>
-            </div>
+            </nav>
 
-            <div>
+            <nav>
                 <BiDoorOpen />
                 <a className='info' href="http://localhost:3000/enter">Entrar</a>
-            </div>
+            </nav>
 
-            <div>
+            <nav>
                 <BiLogIn />
                 <a className='info' href="http://localhost:3000/login">Crie sua conta</a>
-            </div>
+            </nav>
         </menu>
     )
 }
