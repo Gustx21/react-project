@@ -22,7 +22,7 @@ function Login() {
         // setEmail('');
         // setSenha('');
 
-        window.location.href = 'http://localhost:3000';
+        window.location.href = 'http://localhost:3000/enter/start';
     };
 
     return (
