@@ -11,7 +11,7 @@ function MarkdownViewer() {
       .then((text) => setMarkdown(text));
   }, []);
 
-  return <Markdown source={markdown} />;
+  return <Markdown>{markdown}</Markdown>
 }
 
 export default MarkdownViewer;
