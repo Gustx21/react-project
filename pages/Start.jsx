@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from 'react-markdown';
-import File from '../markdown/node.md';
+import FileNode from '../markdown/node.md';
+import FileGit from '../markdown/git.md';
+import FileReact from '../markdown/react.md';
 
 function MarkdownViewer() {
-  const [markdown, setMarkdown] = useState('');
+  const [MarkdownViewer, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch(File)
+    fetch(FileNode)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
   }, []);
 
-  return <Markdown>{markdown}</Markdown>
+  return (
+    <Markdown>{MarkdownViewer}</Markdown>
+  )
 }
 
 export default MarkdownViewer;
